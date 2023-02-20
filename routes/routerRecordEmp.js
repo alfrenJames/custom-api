@@ -17,7 +17,7 @@ empRecordsRouter.get('/getHtml', (req, res)=>{
 empRecordsRouter.get('/getallEmp', (req, res)=>{
     res.status(200).json(empRecords);
     console.log(empRecords);
-    console.log('getting all emp records is successful!');
+    console.log('getting all emp records is successful! Updated message');
 });
 
 //get by id
